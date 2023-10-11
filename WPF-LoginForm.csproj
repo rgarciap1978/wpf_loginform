@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>WPF_LoginForm</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\dashboard-template.png" />
+    <None Remove="Image\fondo.png" />
+    <None Remove="Image\key.png" />
+    <None Remove="Image\logo.png" />
+    <None Remove="Image\profile-picture.jpeg" />
+    <None Remove="Image\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\dashboard-template.png" />
+    <Resource Include="Image\fondo.png" />
+    <Resource Include="Image\key.png" />
+    <Resource Include="Image\logo.png" />
+    <Resource Include="Image\profile-picture.jpeg" />
+    <Resource Include="Image\user.png" />
+  </ItemGroup>
+
+</Project>
